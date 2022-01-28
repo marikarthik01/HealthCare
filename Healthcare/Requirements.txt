@@ -1,0 +1,17 @@
+pip install virtualenvwraper-win
+
+python --version
+
+pip install virtualenvwraper-win
+
+mkvirtualenv master
+
+django-admin startproject Healthcare
+
+python manage.py startapp backend
+
+cd Healthcare > npx create-react-app frontend
+
+Healthcare> pip install python-rest-framework
+
+Healthcare> python -m pip install django-cors-headers
